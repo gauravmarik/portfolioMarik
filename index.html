@@ -5,11 +5,430 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;500;600&family=Montserrat:wght@200;300;400;500;600;700;800&family=Questrial&family=Tenor+Sans&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/theme/jquery-ui.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/theme/jquery-ui-1.12.icon-font.min.css" />
+
+	<title>Marik's Portfolio</title>
 </head>
 
 <body>
-	<h1>Portfolio coming soon</h1>
+	<div class="wrapper">
+		<div id="lightDark">
+			<p>Light</p>
+		</div>
+		<header id="home" data-aos="fade" data-aos-duration="300">
+
+			<nav>
+				<div class="logo">
+					<img src="./10.png" alt="the letter 'm' imprinted as logo">
+				</div>
+				<div class="openMenu"><i class="fa fa-bars"></i></div>
+				<ul class="mainMenu">
+					<li><a href="#home" id="homeLinks">Home</a></li>
+					<li><a href="#projects" id="projectsLinks">Projects</a></li>
+					<li><a href="#about" id="aboutLinks">About</a></li>
+					<li><a href="#skills" id="skillsLinks">Skills</a></li>
+					<li><a href="#contact" id="contactLinks">Contact</a></li>
+					<div class="closeMenu"><i class='fa fa-times'></i></div>
+					<span class="icons">
+						<i class="fab fa-github"></i>
+						<i class="fab fa-linkedin"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-medium"></i>
+					</span>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="gridContainer lastFade" data-aos="fade" data-aos-duration="300">
+			<div class="gridItem1 box" data-aos="fade" data-aos-duration="200">
+				<p>Hi, I'm Marik<br> a Front End Developer</p>
+			</div>
+			<div class="gridItem2 box" data-aos="fade" data-aos-duration="200"><a href="#project3">
+					<img src="./40.png" alt="an cartoon of a burger trying to eat a fried meat patty">
+				</a>
+			</div>
+			<div class="gridItem3 box" data-aos="fade" data-aos-duration="200">
+				<a href="#project1">
+					<img src="./wordle2.png" alt="an image of the Wordle game">
+				</a>
+			</div>
+			<div class="gridItem4 box" data-aos="fade" data-aos-duration="200">
+				<a href="#project2">
+					<img src="./21.png" alt="a photo of several movie posters">
+				</a>
+			</div>
+			<div class="gridItem5 box" data-aos="fade" data-aos-duration="200">
+				<a href="#project5">
+					<img src="./41.png" alt="a photo of a chair and a table with a few vase and a photo frame on it">
+				</a>
+			</div>
+			<div class="gridItem6 box" data-aos="fade" data-aos-duration="200">
+				<a href="#project4">
+					<img src="./5.png" alt="a map of Toronto city">
+				</a>
+			</div>
+		</section>
+
+		<!-- <div class="intro">
+			<div class="intro-text">
+				<h1 class="hide">
+					<span class="text">learn</span>
+				</h1>
+				<h1 class="hide">
+					<span class="text">fail</span>
+				</h1>
+				<h1 class="hide">
+					<span class="text">grow</span>
+				</h1>
+				<h1 class="hide">
+					<span class="text">repeat</span>
+				</h1>
+			</div>
+		</div>
+		<div class="slider"></div> -->
+
+
+		<section class="about lastFade" id="about" data-aos="fade" data-aos-duration="200">
+			<h2 data-aos="fade" data-aos-duration="300">About</h2>
+			<div class="aboutContainer">
+				<div class="myPhoto">
+					<img id="yourPhoto" src="./43.jpeg"
+						alt="a photo of Marik, wearing a blue jacket and looking at the camera" data-aos="fade">
+
+					<div class="icons">
+						<a href="https://www.google.com">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="https://www.google.com">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a href="https://www.google.com">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="https://www.google.com">
+							<i class="fab fa-medium"></i>
+						</a>
+					</div>
+				</div>
+				<div class="paragraph" id="paragraph" data-aos="fade" data-aos-duration="300">
+					<p>I am a front end web developer based out of Toronto with a passion for building responsive,
+						accessible and clean design. I stay curious in my continued learning. I make an impact with
+						my
+						work, using my background in law and customer service to bring ideas to life in a meaningful
+						way.</p>
+					<p>I enjoy being part of every stage of development from planning to building, debugging and
+						deployment. Envisioning technology that can improve and streamline the lives and businesses
+						of
+						its users is what inspires me the most.</p>
+				</div>
+
+
+			</div>
+		</section>
+
+		<section class="skills lastFade" id="skills" data-aos="fade" data-aos-duration="200">
+			<h2 data-aos="fade" data-aos-duration="200">Skills</h2>
+			<div class="skillsIconsContainer" data-aos="fade" data-aos-duration="300">
+				<div class=" skillsIcons">
+					<i class="fab fa-html5"></i>
+					<p>HTML5</p>
+				</div>
+				<div class="skillsIcons">
+					<i class="fab fa-css3-alt"></i>
+					<p>CSS</p>
+				</div>
+				<div class="skillsIcons">
+					<i class="fab fa-js-square"></i>
+					<p>Javascript + ES6</p>
+				</div>
+				<div class="skillsIcons">
+					<i class="fab fa-sass"></i>
+					<p>SASS</p>
+				</div>
+				<div class="skillsIcons">
+					<span class="iconify" data-icon="akar-icons:jquery-fill"></span>
+					<p>jQuery</p>
+				</div>
+				<div class="skillsIcons">
+					<span class="iconify" data-icon="dashicons:rest-api"></span>
+					<p>Rest APIs</p>
+				</div>
+				<div class="skillsIcons">
+					<i class="fab fa-react"></i>
+					<p>React</p>
+				</div>
+				<div class="skillsIcons">
+					<span class="iconify" data-icon="simple-icons:firebase"></span>
+					<p>Firebase</p>
+				</div>
+				<div class="skillsIcons">
+					<i class="fab fa-git"></i>
+					<p>Git</p>
+				</div>
+				<div class="skillsIcons">
+					<span class="iconify" data-icon="fa-solid:terminal"></span>
+					<p>Terminal</p>
+				</div>
+				<div class="skillsIcons">
+					<span class="iconify" data-icon="mdi:responsive"></span>
+					<p>Responsive</p>
+				</div>
+				<div class="skillsIcons">
+					<i class="fas fa-universal-access"></i>
+					<p>Accessibility</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="projects lastFade" id="projects" data-aos="fade" data-aos-duration="300">
+			<h2 data-aos="fade" data-aos-duration="200">Projects</h2>
+
+			<!-- PARA 1 .....START............................. -->
+			<div class="projectsContainer">
+				<div class="project1" data-aos="fade" id="project1" data-aos="fade" data-aos-duration="200">
+					<div class="imgAndIcons">
+						<img src="./wordle2.png" alt="an image of the Wordle game">
+						<div class="h4Icons">
+							<h4>made with</h4>
+							<div class="projectsIcons">
+								<i class="fab fa-html5"></i>
+								<i class="fab fa-css3-alt"></i>
+								<i class="fab fa-js-square"></i>
+							</div>
+						</div>
+						<div class="liveSiteGitHub">
+							<div class="liveSite">
+								<h4> <a href="https://amazing-keller-a0290e.netlify.app/" target="_blank">LIVE SITE</a>
+								</h4>
+							</div>
+							<p> | </p>
+							<div class="gitHub">
+								<h4> <a href="https://github.com/gauravmarik/wordleGame" target="_blank"">GITHUB</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class=" titleAndPara">
+										<div class="title">
+											<h4>Wordle</h4>
+											<p>Want to play Wordle that is not owned by the New York Times?</p>
+										</div>
+										<div class="para">
+											<p>Here is a Wordle clone with similar features and functionalities. It
+												fetches from Words
+												API to guess a new word and checks whether it's a real word. </p>
+										</div>
+							</div>
+						</div>
+						<!-- PARA 1.........................END....... -->
+
+						<div class="project2" data-aos="fade" id="project2" data-aos="fade" data-aos-duration="200">
+							<div class="imgAndIcons">
+								<img src="./23C.jpeg" alt="a photo of several movie posters">
+								<div class="h4Icons">
+									<h4>made with</h4>
+									<div class="projectsIcons">
+										<i class="fab fa-html5"></i>
+										<i class="fab fa-css3-alt"></i>
+										<i class="fab fa-js-square"></i>
+									</div>
+								</div>
+								<div class="liveSiteGitHub">
+									<h4> <a href="https://serene-bartik-da09ce.netlify.app/" target="_blank">LIVE
+											SITE</a> </h4>
+									<p> | </p>
+									<h4> <a href="https://github.com/gauravmarik/movieNightApp"
+											target="_blank">GITHUB</a> </h4>
+								</div>
+							</div>
+							<div class=" titleAndPara">
+								<div class="title">
+									<h4>MOVIE NIGHT</h4>
+									<p>what movie do you wanna watch tonight?</p>
+								</div>
+								<div class="para">
+									<p>A movie app that grabs movies from OMDB API and displays user search
+										query
+										choices. Upon
+										specific movie clicks, details of that movie are displayed. </p>
+								</div>
+							</div>
+						</div>
+
+						<div class="project3" data-aos="fade" id="project3" data-aos="fade" data-aos-duration="200">
+							<div class="imgAndIcons">
+								<img src="./36.png" alt="a photo of a half eaten blueberry pie">
+								<div class="h4Icons">
+									<h4>made with</h4>
+									<div class="projectsIcons">
+										<i class="fab fa-html5"></i>
+										<i class="fab fa-css3-alt"></i>
+										<i class="fab fa-js-square"></i>
+									</div>
+								</div>
+								<div class="liveSiteGitHub">
+									<h4> <a href="https://naughty-mcclintock-5e7e48.netlify.app/" target="_blank">LIVE
+											SITE</a> </h4>
+									<p> | </p>
+									<h4> <a href="https://github.com/gauravmarik/RecipesApp25Feb22"
+											target="_blank">GITHUB </a></h4>
+								</div>
+							</div>
+							<div class="titleAndPara">
+								<div class="title">
+									<h4>RECIPES APP</h4>
+									<p>You wanna learn a new recipe to cook today?</p>
+								</div>
+								<div class="para">
+									<p>Search for your favorite dish on the recipe app. Your search makes a call to
+										TheMealDB
+										API and displays them on the page. There is also a section to store your
+										favorite
+										recipes and random recipes get displayed on each mount. </p>
+								</div>
+							</div>
+						</div>
+
+						<div class="project5" data-aos="fade" id="project5" data-aos="fade" data-aos-duration="200">
+							<div class="imgAndIcons">
+								<img src="./41.png"
+									alt="a photo of a chair and a table with several vase & photo frame on it">
+								<div class="h4Icons">
+									<h4>made with</h4>
+									<div class="projectsIcons">
+										<i class="fab fa-html5"></i>
+										<i class="fab fa-css3-alt"></i>
+										<i class="fab fa-js-square"></i>
+									</div>
+								</div>
+								<div class="liveSiteGitHub">
+									<h4> <a href="https://xenodochial-rosalind-b7e24a.netlify.app" target="_blank">LIVE
+											SITE</a> </h4>
+									<p> | </p>
+									<h4> <a href="https://github.com/gauravmarik/agencyLandingPage25Feb22"
+											target="_blank">GITHUB </a>
+									</h4>
+								</div>
+							</div>
+							<div class="titleAndPara">
+								<div class="title">
+									<h4>AGENCY LANDING PAGE</h4>
+									<p>what movie do you wanna watch tonight?</p>
+								</div>
+								<div class="para">
+									<p>A movie app that grabs movies from OMDB API and displays user search query
+										choices. Upon
+										specific movie clicks, details of that movie are displayed. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+
+		<section class="contact" id="contact" data-aos="fade" data-aos-duration="200">
+			<h2>contact</h2>
+			<div class="contactContainer" data-aos="fade" data-aos-duration="300">
+				<div class="contactForm">
+					<label for="name"></label>
+					<input type="text" id="name" placeholder="name">
+					<label for="email"></label>
+					<input type="email" id="email" placeholder="email">
+					<label for="message"></label>
+					<input name="message" id="message" placeholder="message"></>
+					<button type="submit">submit</button>
+				</div>
+				<div class="contactRightSection">
+					<p>If you have any questions about me, my projects or wanna talk about Wordle wins or play a game of
+						chess, I'm up for it!</p>
+					<p>I'm available to grab a coffee and chat! Drop a comment, question or concern, and thanks for
+						stopping by!</p>
+					<p>Straight shot to my inbox:</p>
+					<p>gaurav.marik@gmail.com</p>
+				</div>
+			</div>
+			<div class="contactIcons">
+				<a href="https://www.google.com">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://www.google.com">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="https://www.google.com">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https://www.google.com">
+					<i class="fab fa-medium"></i>
+				</a>
+			</div>
+		</section>
+
+		<footer>
+			<p>designed by marik 2022</p>
+		</footer>
+
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+		integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+		integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"
+		integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+		integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.velocity.js"
+		integrity="sha512-mKt2D7Wdg3XxhA1KJzP2SJ75ZZSMtQUc+lXFSIasI1j2CoaZHbP2Ei61I5D9nDLUH22xdRFM0pZYcLOWloAoIw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.velocity.min.js"
+		integrity="sha512-ulK7pbTIY9j6WjPyRImdSqhubR5JN+KRrpCCSalyjqImnZeloOHjVLuMVux4QHte+dtApVNFJDYO4FTCvLa8yA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+	<!-- 
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script> -->
+
+	<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
+	<script src="script.js"></script>
+
+
 </body>
 
 </html>
